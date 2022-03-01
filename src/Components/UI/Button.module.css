@@ -1,0 +1,15 @@
+.button {
+  background-image: linear-gradient(to top right, #f03a47, #a82932);
+  box-shadow: 0.6px 0.6px 2.3px rgba(0, 0, 0, 0.059),
+    1.4px 1.5px 5.6px rgba(0, 0, 0, 0.085),
+    2.6px 2.8px 10.5px rgba(0, 0, 0, 0.105),
+    4.7px 4.9px 18.8px rgba(0, 0, 0, 0.125),
+    8.8px 9.2px 35.1px rgba(0, 0, 0, 0.151), 21px 22px 84px rgba(0, 0, 0, 0.21);
+  border: none;
+  color: #faf9f6;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 0.5em 2em;
+  font-family: inherit;
+}

@@ -1,0 +1,14 @@
+.testimonialContainer {
+  /* outline: 5px solid hotpink; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonialHeading {
+  text-align: center;
+  margin: 7rem 0 2rem 0;
+  font-size: 2.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}

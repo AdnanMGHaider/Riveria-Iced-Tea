@@ -1,0 +1,66 @@
+.cart-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 20rem;
+  overflow: auto;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.totalAmount {
+  color: #444;
+  font-family: "Poppins", sans-serif;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #f03a47;
+  /* background-color: #f03a47; */
+  padding: 15px 40px;
+  border-radius: 50px;
+  margin-left: 1rem;
+  transition: ease 0.4s;
+  /* color: #fff; */
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #c02e39;
+  /* background-color: #5a1a01;
+  border-color: #5a1a01; */
+  color: #fff;
+}
+
+.actions .button--alt {
+  color: #f03a47;
+}
+
+.actions .button {
+  background-color: #f03a47;
+  box-shadow: 0 3.9px 4.6px rgba(0, 0, 0, 0.08),
+    0 12.3px 8.4px rgba(0, 0, 0, 0.056), 0 18.8px 19.2px rgba(0, 0, 0, 0.037),
+    0 22px 40px rgba(0, 0, 0, 0.019);
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 15px 40px;
+  font-family: inherit;
+  transition: ease 0.4s;
+  /* background-color: #8a2b06;
+  color: white; */
+}

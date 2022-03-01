@@ -1,0 +1,128 @@
+.container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto auto;
+  margin-top: 7rem;
+}
+
+.descriptionContainer,
+.teaPickersJpg,
+.purifiedWaterSvg,
+.usdaOrganicSvg,
+.ethicallySourcedSvg,
+.caneSugarSvg,
+.teaLeavesInHandJpg {
+  border-radius: 25px;
+  box-shadow: 0 3.9px 4.6px rgba(0, 0, 0, 0.08),
+    0 12.3px 8.4px rgba(0, 0, 0, 0.056), 0 18.8px 19.2px rgba(0, 0, 0, 0.037),
+    0 22px 40px rgba(0, 0, 0, 0.019);
+  text-align: center;
+}
+
+.descriptionContainer {
+  background-color: #3a4310;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  color: #fff;
+  padding: 2rem;
+  align-self: center;
+  margin-right: 3rem;
+  border: 5px solid #bbd438;
+}
+
+.descriptionHeading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description {
+  line-height: 1.7;
+}
+
+.teaPickersJpg {
+  height: 15rem;
+}
+
+.teaPickersJpg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.vectorSquare1 {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 25px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.vectorSquare1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.purifiedWaterSvg {
+  border: 5px solid #bbd438;
+  color: black;
+  padding: 1rem;
+  align-self: center;
+  height: 9rem;
+  width: 9rem;
+}
+.usdaOrganicSvg {
+  border: 5px solid #bbd438;
+  color: black;
+  padding: 1rem;
+  align-self: center;
+  height: 9rem;
+  width: 9rem;
+}
+.ethicallySourcedSvg {
+  border: 5px solid #bbd438;
+  color: black;
+  padding: 1rem;
+  align-self: center;
+  height: 9rem;
+  width: 9rem;
+}
+.caneSugarSvg {
+  border: 5px solid #bbd438;
+  color: black;
+  padding: 1rem;
+  align-self: center;
+  height: 9rem;
+  width: 9rem;
+}
+.vectorSquare2 {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 25px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.vectorSquare2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.teaLeavesInHandJpg {
+  height: 15rem;
+}
+
+.teaLeavesInHandJpg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}

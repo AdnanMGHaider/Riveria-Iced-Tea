@@ -1,0 +1,108 @@
+form {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+form select {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border: 2px solid #bbd438;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  height: 2rem;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form select option {
+  background-color: #3a4310;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+
+.quantityAndPrice {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+/******************Quantity related styling***********************/
+
+.quantity {
+  width: 50%;
+  text-align: center;
+}
+
+.quantity input {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid #bbd438;
+  background-color: transparent;
+}
+
+.quantity label {
+  margin-bottom: 0.5rem;
+}
+
+.quantity button {
+  background-color: #f03a47;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.incDecInput {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border: 2px solid #bbd438;
+  border-radius: 20px;
+}
+
+.incDecInput input {
+  color: white;
+  font-family: inherit;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.increment {
+  margin-left: 0.5rem;
+  padding-top: 2px;
+  padding-bottom: 0;
+}
+.decrement {
+  margin-right: 0.5rem;
+  padding-top: 0;
+  padding-bottom: 1px;
+}
+
+/******************Price related styling***********************/
+
+.price {
+  width: 50%;
+}
+
+.price h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.price label {
+  margin-bottom: 0.5rem;
+}
